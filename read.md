@@ -4,7 +4,7 @@
  git push origin --delete 分支名称    执行这两步
 
 
-
+#执行这条命令之前要先提交所有的代码
  git subtree push --prefix=dist origin gh-pages
-
+https://xuyifeicoco.github.io/racat_study/
 
