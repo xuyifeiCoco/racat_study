@@ -1,0 +1,1 @@
+webpackJsonp([2],{"Kcc+":function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var c=t("GiK3"),u=t.n(c),r=function(){return u.a.createElement("div",null,"\u9519\u8bef\u4e86")};n.default=r}});
