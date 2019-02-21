@@ -6,6 +6,7 @@ function Index() {
   return (
     <div>
       <p className={styles.red}> 我这个是首页 </p>
+      <img src={require('../../assets/yay.jpg')} alt="" className={styles.img}/>
       {/* <Button> 测试部署</Button> */}
     </div>
   );
