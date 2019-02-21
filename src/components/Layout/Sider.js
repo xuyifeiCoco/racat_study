@@ -1,19 +1,11 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { Icon, Switch } from 'antd'
+// import PropTypes from 'prop-types'
+// import { Icon, Switch } from 'antd'
 import Menus from './Menu'
 
-const Sider = ({
-  siderFold, darkTheme, location, changeTheme, navOpenKeys, changeOpenKeys, menu, menus_tree,
-}) => {
+const Sider = () => {
   const menusProps = {
-    menu,
-    menus_tree,
-    siderFold,
-    darkTheme,
-    location,
-    navOpenKeys,
-    changeOpenKeys,
+
   }
   return (
     <div>

@@ -13,9 +13,9 @@ function RouterConfig({ history, app }) {
 
   const routers =[
     {
-      path: '/first',
-      models: () => [import('./models/first')],
-      component: () => import('./routes/first/First'),
+      path: '/index',
+      models: () => [import('./models/index')],
+      component: () => import('./routes/index/index'),
     },
     {
       path: '/second',
@@ -27,7 +27,7 @@ function RouterConfig({ history, app }) {
     <ConnectedRouter history={history}>
     <App>
     <Switch>
-        <Route path="/" exact render={ () => (<Redirect to='/first' />) } />
+        <Route path="/" exact render={ () => (<Redirect to='/index' />) } />
         {
           routers.map(({ path, ...dynamics },key) => {
             return <Route 

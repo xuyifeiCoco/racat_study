@@ -4,23 +4,23 @@ import PropTypes from 'prop-types'
 import { withRouter } from 'dva/router'
 // import styles from './app.less';
 import { Layout } from 'antd'
-import { MyLayout } from '../components'
+// import { MyLayout } from '../components'
 
 const {
-  Header, Footer, Sider, Content,
+  Header, Footer, Content,
 } = Layout;
 const App =({
   children, dispatch, app, loading, location,
 }) => {
-  const siderProps = {
+  // const siderProps = {
     
-  }
+  // }
   return (
     <div>
       <Layout style={{ height: '100vh', overflowY: 'scroll' }} id="mainContainer">
-        <Sider>
+        {/* <Sider>
           {  siderProps.menu && siderProps.menu.length === 0 ? null : <MyLayout.Sider {...siderProps} />}
-        </Sider>
+        </Sider> */}
         <Layout>
           <Header>Header</Header>
           <Content>
