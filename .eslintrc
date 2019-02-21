@@ -1,6 +1,6 @@
 {
   "extends": "umi",
   "settings": {
-    "version": "detect"
+    "version": "16.8.2"
   }
 }
